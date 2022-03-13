@@ -1,0 +1,31 @@
+Mean Subtraction : 평균빼기 
+		x:= x-mean
+
+mean of squre : 제곱의 평균
+squre of mean : 평균의 제곱
+Varinace : 분산
+Standard diviation(std) : 표준편차
+
+vector operation : 벡터 연산
+elements-wise operation : 벡터에서, 같은 차원에 있는 것들 끼리의 연산
+Vector Norm : n차원 공간상에서 벡터의 크기를 의미한다 (즉, 직선의 길이)
+Unit Vector : 기존의 norm값을 주어진 벡터의 방향과 같고, 크기가 1인 norm으로 만들어주는 벡터
+Dot Product : (벡터의 각 elemnt의곱)의 합 
+Euclidean distance : (유클리드 거리) == L2 distance 라고도 부른다
+		즉, n차원공간에서의 두 점사이의 거리 -> 피타고라스 정리 이용
+
+Squared Error : (에러의 제곱) : 내가 예측한 값이 얼마나 정확한가 ? -> 두 점사이의 거리로 구한다
+Mean square Error(MSE) : (에러의 제곱)의 평균
+
+
+Standardization(표준화) : 표준화를 하게되면 평균이 0이고, 분산이 1인 데이터분포가 재 생성된다
+	          (x - mean) / std
+	  	ex) (x1,y1,z1) -> (x - mean) / std -> ((x1 -mean)/std, (x2 -mean)/std , (x2 -mean)/std)						-> 평균이 0이고 , 분산이 1인 데이터 분포가 생성된다
+Normalization(정규화) :  정규화를 하게되면 데이터들이 [0~1] 사이의 분포를 갖게된다
+		      [100~200] -> x:= (x - xMin) / (xMax-xMin) -> [0,1]
+
+
+
+
+
+
